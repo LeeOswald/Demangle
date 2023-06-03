@@ -33,16 +33,16 @@ $ demangle _ZN12SignalReader10onActivityEPN4maux6WaiterEi
 $ SignalReader::onActivity(maux::Waiter*, int)
 ```
 
-demangle process will set the appropriate exit code you can analyze inn a shell script:
-0 - success
-1 - help message printed
-2 - out of memory
-3 - invalid symbol name
-4 - invalid argument
-5 - unknown error
-6 - failed to open input file
-7 - failed to create output file
-
+demangle process will set the appropriate exit code you can analyze in a shell script:
+0 - success  
+1 - help message printed  
+2 - out of memory  
+3 - invalid symbol name  
+4 - invalid argument  
+5 - unknown error  
+6 - failed to open input file  
+7 - failed to create output file  
+  
 Or, you can demangle all symbols in a given file:
 
 ```bash
