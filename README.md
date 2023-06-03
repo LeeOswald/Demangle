@@ -2,7 +2,7 @@
 C++ demagler command line utility
 =================================
 
-Can demangle either a sihgle given symbol or all symbols in a file. At the moment, only C++ GCC mangling scheme is supported. Libc-based system is required.
+Can demangle either a single given symbol or all symbols in a file. At the moment, only C++ GCC mangling scheme is supported. Libc-based system is required.
 
 
 Building
