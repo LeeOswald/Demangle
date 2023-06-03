@@ -33,7 +33,7 @@ $ demangle _ZN12SignalReader10onActivityEPN4maux6WaiterEi
 $ SignalReader::onActivity(maux::Waiter*, int)
 ```
 
-demangle process will set the appropriate exit code you can analyze in a shell script:
+demangle process will set the appropriate exit code you can analyze in a shell script:  
 0 - success  
 1 - help message printed  
 2 - out of memory  
